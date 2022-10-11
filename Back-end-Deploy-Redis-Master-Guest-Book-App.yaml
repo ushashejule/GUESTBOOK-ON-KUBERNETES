@@ -16,7 +16,7 @@ spec:
         tier: back-end
     spec:
       containers:
-        - name: master-redis-datacenter
+        - name: master-redis-xfusion
           image: redis
           resources:
             requests:
